@@ -29,6 +29,11 @@ g++ -O3 -fopenmp kmeans2.cpp -o kmeans_omp
 .\kmeans_omp.exe
 ```
 
+> [!NOTE]
+> Al termine dell'esecuzione, Il programma crea automaticamente tre diversi file:
+> - data/: Contains generated datasets
+> - results/: Stores performance plots and analysis tables
+
 ## Fonti
 Il dettaglio teorico dell'algoritmo e i risultati dei test di performance sono consultabili qui:
 **[Leggi l'articolo (PDF)](kmeansOpenMP.pdf)**
