@@ -22,8 +22,13 @@ cd Kmeans-OpenMP
 ```
 ### 2. Compilare il codice
 ```bash
-g++ -O3 -fopenmp kmeans2.cpp -o kmeans_omp
+g++ -O3 -fopenmp kmeans2.cpp -o kmeans_OpenMP
 ```
+`g++` è il compilatore.
+`-03` attiva il massimo livello di ottimizzazione. Senza questo, le istruzioni #pragma omp simd e il layout SoA non verrebbero sfruttati appieno.
+`-fopenmp` attiva la libreria OpenMP.
+`-o kmeans_OpenMP` nome del file eseguibile finale.
+
 ### 3. Eseguire il codice
 ```bash
 .\kmeans_omp.exe
