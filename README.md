@@ -11,11 +11,23 @@ Questa implementazione sfrutta il parallelismo a livello di thread per velocizza
 
 ## Prerequisiti
 Per compilare ed eseguire il file del progetto , è necessario avere installato:
-1. Un compilatore che supporti OpenMP (come `gcc` o `clang`).
+1. Un compilatore C++ che supporti OpenMP (come `gcc` o `clang`).
 2. Libreria di OpenMP
 
 ## Setup e Utilizzo (Windows)
-Per compilare ed eseguire il progetto 
+### 1. Clonare la repository
+```bash
+git clone Elia29/Kmeans-OpenMP
+cd Kmeans-OpenMP
+```
+### 2. Compilare il codice
+```bash
+g++ -O3 -fopenmp main.cpp -o kmeans_omp
+```
+### 3. Eseguire il codice
+```bash
+.\kmeans_omp.exe
+```
 
 ## Fonti
 Il dettaglio teorico dell'algoritmo e i risultati dei test di performance sono consultabili qui:
