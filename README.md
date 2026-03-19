@@ -19,5 +19,8 @@ Per compilare ed eseguire il progetto
 
 ## Fonti
 Il dettaglio teorico dell'algoritmo e i risultati dei test di performance sono consultabili qui:
-**[Leggi il Paper (PDF)](kmeansOpenMP.pdf)**
+**[Leggi l'articolo (PDF)](kmeansOpenMP.pdf)**
+
+## Licenza
+Questo progetto è distribuito sotto la licenza [MIT](LICENSE).
 
