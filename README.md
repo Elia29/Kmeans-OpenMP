@@ -9,8 +9,15 @@ Questa implementazione sfrutta il parallelismo a livello di thread per velocizza
 2. L'assegnazione dei punti al cluster più vicino.
 3. L'aggiornamento della posizione dei centroidi.
 
-## 🛠 Prerequisiti (Windows)
-Per compilare ed eseguire il progetto, è necessario avere installato:
+## Prerequisiti
+Per compilare ed eseguire il file del progetto , è necessario avere installato:
 1. Un compilatore che supporti OpenMP (come `gcc` o `clang`).
 2. Libreria di OpenMP
+
+## Setup e Utilizzo (Windows)
+Per compilare ed eseguire il progetto 
+
+## Fonti
+Il dettaglio teorico dell'algoritmo e i risultati dei test di performance sono consultabili qui:
+**[Leggi il Paper (PDF)](kmeansOpenMP.pdf)**
 
