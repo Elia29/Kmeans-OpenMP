@@ -17,8 +17,8 @@ Per compilare ed eseguire il progetto [kmeansOpenMP.cpp](kmeansOpenMP.cpp), è n
 ## Setup e Utilizzo (Windows)
 ### 1. Clonare la repository
 ```bash
-git clone Elia29/Kmeans-OpenMP
-cd Kmeans-OpenMP
+git clone Elia29/Kmeans_OpenMP
+cd Kmeans_OpenMP
 ```
 ### 2. Compilare il programma
 ```bash
